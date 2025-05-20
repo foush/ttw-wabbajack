@@ -1,0 +1,49 @@
+Tale of Two Wastelands: https://thebestoftimes.moddinglinked.com/
+
+Wasteland Survival Guide: https://wastelandsurvival.guide/
+
+SALVO: https://salamand3r.fail/new-vegas-visual-renewal
+
+
+# The Best of Times
+
+TTW mod will still need to be built and installed manually: https://thebestoftimes.moddinglinked.com/ttw.html
+
+https://thebestoftimes.moddinglinked.com/essentials.html
+
+* NVSE installed using Root Builder plugin
+
+* manually set falloutcustom.ini
+https://thebestoftimes.moddinglinked.com/essentials.html#GameConfiguration
+
+Performance Guide will need to be tweaked separately: https://performance.moddinglinked.com/falloutnv.html
+
+# Wasteland Survival Guide
+## UI and HUD
+* Main Menu Redone: Ultrawide vs Widescreen, 2k/4k https://wastelandsurvival.guide/docs/ui#main-menu-redone
+
+## Gameplay
+Stash Organizer: Added stash organizer INI as it is now separate and required. - https://mod.pub/falloutnv/4-stash-organizer
+
+Simple night vision now Modern Night Vision, downloaded legacy file - https://www.nexusmods.com/newvegas/mods/84991
+
+NPCs Sprint kNVSE - ESPLess conflicts with Titans of the New West https://www.nexusmods.com/newvegas/mods/83745?tab=files
+
+## Content
+Lived In Strip may conflict with SALVO mods, can be disabled https://www.nexusmods.com/newvegas/mods/91279
+** FOMOD options not provided in guide
+
+
+
+https://www.nexusmods.com/newvegas/mods/90464
+Mojave Raiders Lite: TTW Patch is now a FOMOD installer
+
+https://www.nexusmods.com/newvegas/mods/64638
+Mojave Wildlife: TTW Patch is now a FOMOD installer (same as above)
+
+## Final Steps
+https://www.nexusmods.com/newvegas/mods/79358 VNV LOD Guide Plugins Merge
+* no installer options to select Without ALML Patch
+
+https://www.nexusmods.com/newvegas/mods/88898 High Priority LOD
+* High priority core without NVMIM
