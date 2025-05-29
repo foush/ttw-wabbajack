@@ -1,0 +1,48 @@
+# Wasteland Survival Guide + SALVO
+
+## What is this
+This is a wabbajack to automate a lot of the tedious downloading and FOMOD option selecting parts of following these guides. This DOES NOT install TTW for you, you still need to do that. This DOES NOT install and compile SALVO's guide for you, you still need to do that.
+
+This creates the game folder, and downloads the mods with the selections specified by WSG and SALVO
+
+## Tale of Two Wastelands
+You need to follow the implementation of TTW found here: https://thebestoftimes.moddinglinked.com/ttw.html
+
+You need to install NVSE in your game folder by following directions here: https://thebestoftimes.moddinglinked.com/essentials.html#xNVSE
+You need to apply the 4GB Patch from here: https://thebestoftimes.moddinglinked.com/essentials.html#Patchers
+
+The rest of the mods will be downloaded and set up for you.
+
+## Wasteland Survival Guide
+All mods in this guide are part of the wabbajack and configured for you with the exception of the manual downloads the wabbajack will indicate for you.
+At the time of writing there is one mod hosted on Google Drive that need to be [approved on the Wabbajack Whitelist](https://github.com/wabbajack-tools/opt-out-lists/pull/918)
+* [Simple Maps - TTW Compressed](https://wastelandsurvival.guide/docs/ui#simple-maps)
+
+
+## SALVO Guide
+You will need to install the SALVO mods and compile the output mod by following the guide (similar to TTW)
+The rest of the guide is implemented and conflicting WSG mods are disabled.
+
+Note: Section 10: Sandstone Desert mod is archived, not accessible to the Wabbajack
+https://www.nexusmods.com/newvegas/mods/88796?tab=files&file_id=1000143677
+
+
+To Generate LOD:
+Enable ESPs:
+HighPriorityLOD.esp
+HighPriorityLOD_TTW.esp
+
+Follow the guide on generating LOD
+
+POST LOD generation:
+
+SALVO Additions disable the following directories in the mods:
+---
+Simple Open Strip - disable meshes/landscape/lod
+The Strip 2023 - disable meshes/landscape/lod AND textures/landscape/lod
+Lucky 38 Lights Redone - Full Model - meshes/landscape/lod AND textures/landscape/lod
+-- leaving them enabled will overwrite the generated LOD and cause glitches.
+
+Once LOD generation is completed, disable the following ESPs or you game will likely crash
+HighPriorityLOD.esp
+HighPriorityLOD_TTW.esp
